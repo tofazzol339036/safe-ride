@@ -1,0 +1,22 @@
+.vehicle {
+  width: 220px;
+  height: 220px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.vehicle h2 {
+  text-transform: uppercase;
+}
+
+.vehicle img {
+  height: 100px;
+  width: 100px;
+}

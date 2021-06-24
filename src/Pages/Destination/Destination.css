@@ -1,0 +1,32 @@
+.destination {
+  padding-top: 3rem;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+.destination .sidebar {
+  flex: 1 1 200px;
+  padding: 2rem 1rem;
+}
+
+.destination .map-area {
+  flex: 1 1 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+  .destination {
+    flex-direction: column;
+  }
+  .destination .sidebar {
+    flex: 1;
+    padding: 2rem 1rem;
+  }
+  .destination .map-area {
+    flex: 1;
+    padding: 2rem 1rem;
+  }
+}

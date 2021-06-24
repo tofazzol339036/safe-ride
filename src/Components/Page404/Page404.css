@@ -1,0 +1,30 @@
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.not-found img {
+  width: 40%;
+}
+
+.not-found h1 {
+  font-size: 40px;
+  color: #eb5a5a;
+  text-align: center;
+}
+
+@media screen and (max-width: 910px) {
+  .not-found {
+    flex-direction: column;
+  }
+  .not-found img {
+    width: 60%;
+    order: 1;
+  }
+  .not-found h1 {
+    font-size: 35px;
+  }
+}
